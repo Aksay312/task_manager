@@ -22,8 +22,7 @@
 
 ## Авторизация
 
-Требуется заголовок:
-"mysecrettoken"
+Токен для авторизации: mysecrettoken
 
 
 
@@ -41,4 +40,65 @@ uvicorn app.main:app --reload
 
 После запуска перейти в браузер
 http://localhost:8000/docs
+
+
+## Эндпоинты
+GET	    /api/tasks
+POST	/api/task/create
+DELETE	/api/task/{task_id}/delete
+PATCH	/api/task/{task_id}/status
+PATCH	/api/task/{task_id}/edit
+
+## Примеры запросов
+Создать задачу:
+
+    POST http://127.0.0.1:8000/api/task/create
+    Authorization: Bearer mysecrettoken
+    Content-Type: application/json
+
+    {
+    "title": "Buy milk",
+    "description": "From the store",
+    "status": "new",
+    "due_date": "2025-06-01T12:00:00"
+    }
+
+
+Вывести задачи с опциональной фильтрацией:
+
+    GET http://127.0.0.1:8000/api/tasks?status=new&due_before=2025-06-25T00:00:00
+    Authorization: Bearer mysecrettoken
+
+
+
+Редактировать задачу:
+
+    PATCH http://127.0.0.1:8000/api/task/1/edit
+    Authorization: Bearer mysecrettoken
+    Content-Type: application/json
+
+    {
+    "description": "Updated desc",
+    "due_date": "2025-06-10T15:00:00"
+    }
+
+
+
+Обновление задачи:
+
+    PATCH http://127.0.0.1:8000/api/task/1/status
+    Authorization: Bearer mysecrettoken
+    Content-Type: application/json
+
+    {
+    "status": "done"
+    }
+
+
+Пример на postman:
+
+![alt text](image.png)
+
+ответ:
+![alt text](image-1.png)
 
