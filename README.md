@@ -41,9 +41,13 @@ http://localhost:8000/docs
 ## Эндпоинты
 
 GET	    /api/tasks
+
 POST	/api/task/create
+
 DELETE	/api/task/{task_id}/delete
+
 PATCH	/api/task/{task_id}/status
+
 PATCH	/api/task/{task_id}/edit
 
 ## Примеры запросов
