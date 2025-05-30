@@ -24,13 +24,10 @@
 
 Токен для авторизации: mysecrettoken
 
-
-
 Swagger поддерживает авторизацию через кнопку **"Authorize"**.
 
 ## Установка и запуск
 
-```bash
 git clone <repo-url>
 cd task_manager
 python -m venv venv
@@ -38,11 +35,11 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
-После запуска перейти в браузер
+Полсе запуска перейти в браузер
 http://localhost:8000/docs
 
-
 ## Эндпоинты
+
 GET	    /api/tasks
 POST	/api/task/create
 DELETE	/api/task/{task_id}/delete
@@ -94,11 +91,10 @@ PATCH	/api/task/{task_id}/edit
     "status": "done"
     }
 
+##  Пример на postman
 
-Пример на postman:
+![photo_2025-05-30_18-55-49](https://github.com/user-attachments/assets/ec6739c9-27f3-496d-9da7-54e87ddad70b)
 
-![alt text](image.png)
 
-ответ:
-![alt text](image-1.png)
-
+Ответ:
+![photo_2025-05-30_18-55-05](https://github.com/user-attachments/assets/6ec8a598-9286-4f59-9778-aec9e48432ed)
