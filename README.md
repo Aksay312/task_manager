@@ -102,6 +102,23 @@ PATCH	/api/task/{task_id}/edit
     "status": "done"
     }
 
+Обновление статуча задачи:
+
+    PATCH http://127.0.0.1:8000/api/task/1/status
+    Authorization: Bearer mysecrettoken
+    Content-Type: application/json
+
+    {
+    "status": "done"
+    }
+
+Удаление задачи:
+
+    DELETE http://127.0.0.1:8000/api/task/1/delete
+    Authorization: Bearer mysecrettoken
+
+
+
 ##  Пример на postman
 
 ![photo_2025-05-30_18-55-49](https://github.com/user-attachments/assets/ec6739c9-27f3-496d-9da7-54e87ddad70b)
