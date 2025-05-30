@@ -39,3 +39,6 @@ class TaskEdit(BaseModel):
     title: Optional[str] = None
     description: Optional[str] = None
     due_date: Optional[datetime] = None
+
+class TaskDelete(BaseModel):
+    deleted: bool
