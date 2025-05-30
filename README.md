@@ -29,13 +29,20 @@ Swagger поддерживает авторизацию через кнопку 
 ## Установка и запуск
 
 git clone <repo-url>
+
 cd task_manager
+
 python -m venv venv
+
 source venv/bin/activate  # Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
+
 uvicorn app.main:app --reload
 
+
 Полсе запуска перейти в браузер
+
 http://localhost:8000/docs
 
 ## Эндпоинты
