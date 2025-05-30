@@ -90,18 +90,6 @@ PATCH	/api/task/{task_id}/edit
     "due_date": "2025-06-10T15:00:00"
     }
 
-
-
-Обновление задачи:
-
-    PATCH http://127.0.0.1:8000/api/task/1/status
-    Authorization: Bearer mysecrettoken
-    Content-Type: application/json
-
-    {
-    "status": "done"
-    }
-
 Обновление статуча задачи:
 
     PATCH http://127.0.0.1:8000/api/task/1/status
@@ -121,8 +109,8 @@ PATCH	/api/task/{task_id}/edit
 
 ##  Пример на postman
 
-![photo_2025-05-30_18-55-49](https://github.com/user-attachments/assets/ec6739c9-27f3-496d-9da7-54e87ddad70b)
-
-
-Ответ:
-![photo_2025-05-30_18-55-05](https://github.com/user-attachments/assets/6ec8a598-9286-4f59-9778-aec9e48432ed)
+![image](https://github.com/user-attachments/assets/46492089-b496-45e0-9c46-a65143fbb50d)
+![image](https://github.com/user-attachments/assets/f35484c1-1e3c-4441-9215-0e8c9353bc07)
+![image](https://github.com/user-attachments/assets/acf44a5d-b1d6-4fad-8aef-1b0e813071ba)
+![image](https://github.com/user-attachments/assets/e7c62d8c-c208-4162-a92a-d73671ba9f89)
+![image](https://github.com/user-attachments/assets/3696787b-046d-4cf7-a7a6-f36ef71c2a70)
