@@ -109,8 +109,32 @@ PATCH	/api/task/{task_id}/edit
 
 ##  Пример на postman
 
-![image](https://github.com/user-attachments/assets/46492089-b496-45e0-9c46-a65143fbb50d)
-![image](https://github.com/user-attachments/assets/f35484c1-1e3c-4441-9215-0e8c9353bc07)
-![image](https://github.com/user-attachments/assets/acf44a5d-b1d6-4fad-8aef-1b0e813071ba)
-![image](https://github.com/user-attachments/assets/e7c62d8c-c208-4162-a92a-d73671ba9f89)
-![image](https://github.com/user-attachments/assets/3696787b-046d-4cf7-a7a6-f36ef71c2a70)
+Создать задачу:
+![image](https://github.com/user-attachments/assets/2ade8b2d-33b1-400f-b61a-a12925c3816c)
+
+Вывод задачи с фильтрацией:
+![image](https://github.com/user-attachments/assets/9a5f25cd-b8fa-4684-a011-3ae8364d2ad8)
+
+Редактирования задачи:
+![image](https://github.com/user-attachments/assets/11847859-a736-4a30-97a1-cd1b8a77dfc6)
+
+Удаление задачи:
+![image](https://github.com/user-attachments/assets/5542b935-8da1-4767-a1db-f246f6ddc280)
+
+
+
+##  Рефлексии
+1. Что было самым сложным?
+Разобраться как работать с базой данных и как эту штуку запушить в чертов github. 
+
+2. Что получилось особенно хорошо?
+Гибкая фильтрация, чистая архитектура, авторизация через токен.
+
+3. Что бы я доработал?
+Роли (admin / user), docker-файл, и unit-тесты. Но пока не знаю как писать тесты и знаю что такое docker
+
+4. Сколько времени заняло выполнение?
+3-4 дня (и психотерапия после этого).
+
+5. Чему я научился?
+Понял что такое FastAPI, запросы, и REST в целом. Научился коммитить и пушить проект в github, хоть и все еще не понимаю многих приколов этой штуки. Думаю после этого проекта я уже могу строить простые crud приложения хоть и не без помощи google и chat gpt.
