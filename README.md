@@ -122,17 +122,6 @@ PATCH	/api/task/{task_id}/edit
 ![image](https://github.com/user-attachments/assets/cd5a4543-3eda-41fa-8118-63be9316ce86)
 
 
-
-
-
-
-
-
-
-
-
-
-
 ##  Рефлексии
 1. Что было самым сложным?
 Разобраться как работать с базой данных и как эту штуку запушить в чертов github. 
