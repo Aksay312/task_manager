@@ -109,14 +109,18 @@ PATCH	/api/task/{task_id}/edit
 
 ##  Пример на postman
 
-Создать задачу:
+##  Создание задачи
 ![image](https://github.com/user-attachments/assets/2ade8b2d-33b1-400f-b61a-a12925c3816c)
 
-Вывод задачи с фильтрацией:
+##  Вывод с фильтрацией
 ![image](https://github.com/user-attachments/assets/9a5f25cd-b8fa-4684-a011-3ae8364d2ad8)
 
-Редактирования задачи:
+##  Редактирование задачи
 ![image](https://github.com/user-attachments/assets/11847859-a736-4a30-97a1-cd1b8a77dfc6)
+
+##  Удаление задачи
+![image](https://github.com/user-attachments/assets/bdfaf039-ee75-4fa0-a2ed-769a8f69bff9)
+
 
 
 ##  Рефлексии
