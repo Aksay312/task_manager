@@ -119,7 +119,8 @@ PATCH	/api/task/{task_id}/edit
 ![image](https://github.com/user-attachments/assets/11847859-a736-4a30-97a1-cd1b8a77dfc6)
 
 Удаление задачи:
-![image](https://github.com/user-attachments/assets/5542b935-8da1-4767-a1db-f246f6ddc280)
+![image](https://github.com/user-attachments/assets/cd5a4543-3eda-41fa-8118-63be9316ce86)
+
 
 
 
